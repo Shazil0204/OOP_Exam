@@ -4,7 +4,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using Apartment_renovation.Model.Lists;
+using Apartment_renovation.Model.Classes;
 using Apartment_renovation.Model.Classes.Apartments;
+using System.Diagnostics;
 
 namespace Apartment_renovation.Controller
 {
@@ -12,6 +14,13 @@ namespace Apartment_renovation.Controller
     {
     
         internal List list = new List();
+
+        // taking all the fields from my TotalApartment Class and adding them into the for loop 
+        private ushort _1room = TotalApartment._1RoomApartments;
+        private byte _2room = TotalApartment._2RoomApartments;
+        private byte _3room = TotalApartment._3RoomApartments;
+        private byte _4room = TotalApartment._4RoomApartments;
+        private byte _5room = TotalApartment._5RoomApartments;
 
         /// <summary>
         /// all methods are combine
@@ -30,7 +39,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment1()
         {
-            for (ushort i = 0; i < 368; i++)
+            for (ushort i = 0; i < _1room; i++)
             {
                 _1RoomApartment _1roomApartment = new _1RoomApartment(1, 1, 1, 1);
 
@@ -43,7 +52,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment2()
         {
-            for (byte i = 0; i < 235; i++)
+            for (byte i = 0; i < _2room; i++)
             {
                 _2RoomApartment _2roomApartment = new _2RoomApartment(1, 1, 1, 2);
 
@@ -56,7 +65,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment3()
         {
-            for (byte i = 0; i < 167; i++)
+            for (byte i = 0; i < _3room; i++)
             {
                 _3RoomApartment _3roomApartment = new _3RoomApartment(1, 1, 1, 3);
 
@@ -69,7 +78,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment4()
         {
-            for (byte i = 0; i < 97; i++)
+            for (byte i = 0; i < _4room; i++)
             {
                 _4RoomApartment _4roomApartment = new _4RoomApartment(1, 1, 1, 4);
                 
@@ -82,7 +91,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment5()
         {
-            for (byte i = 0; i < 47; i++)
+            for (byte i = 0; i < _5room; i++)
             {
                 _5RoomApartment _5roomApartment = new _5RoomApartment(1, 1, 1, 5);
 

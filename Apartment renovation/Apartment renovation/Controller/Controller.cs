@@ -14,6 +14,7 @@ namespace Apartment_renovation.Controller
 
         internal void MainController()
         {
+            // This controller creates all my apartments
             creatingApartment.AllApartments();
             Debug.WriteLine(creatingApartment.list._1RoomApartments.Count());
             Debug.WriteLine(creatingApartment.list._2RoomApartments.Count());

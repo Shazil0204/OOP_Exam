@@ -10,7 +10,7 @@ namespace Apartment_renovation.Model.Classes
 {
     internal class TotalApartment: ITotalApartments
     {
-        internal const ushort _1RoomApartments = 368;
+        public const ushort _1RoomApartments = 368;
         internal const byte _2RoomApartments = 235;
         internal const byte _3RoomApartments = 167;
         internal const byte _4RoomApartments = 97;
