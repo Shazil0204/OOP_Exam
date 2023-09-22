@@ -1,0 +1,7 @@
+C:\Users\Shaz0184\Desktop\OOP_Exam\Apartment renovation\Apartment renovation\bin\Debug\Apartment renovation.exe.config
+C:\Users\Shaz0184\Desktop\OOP_Exam\Apartment renovation\Apartment renovation\bin\Debug\Apartment renovation.exe
+C:\Users\Shaz0184\Desktop\OOP_Exam\Apartment renovation\Apartment renovation\bin\Debug\Apartment renovation.pdb
+C:\Users\Shaz0184\Desktop\OOP_Exam\Apartment renovation\Apartment renovation\obj\Debug\Apartment renovation.csproj.AssemblyReference.cache
+C:\Users\Shaz0184\Desktop\OOP_Exam\Apartment renovation\Apartment renovation\obj\Debug\Apartment renovation.csproj.CoreCompileInputs.cache
+C:\Users\Shaz0184\Desktop\OOP_Exam\Apartment renovation\Apartment renovation\obj\Debug\Apartment renovation.exe
+C:\Users\Shaz0184\Desktop\OOP_Exam\Apartment renovation\Apartment renovation\obj\Debug\Apartment renovation.pdb
