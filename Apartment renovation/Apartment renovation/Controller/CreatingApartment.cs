@@ -11,7 +11,7 @@ namespace Apartment_renovation.Controller
     internal class CreatingApartment
     {
     
-        List list = new List();
+        internal List list = new List();
 
         /// <summary>
         /// all methods are combine
@@ -30,7 +30,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment1()
         {
-            for (ushort i = 0; i <= 368; i++)
+            for (ushort i = 0; i < 368; i++)
             {
                 _1RoomApartment _1roomApartment = new _1RoomApartment(1, 1, 1, 1);
 
@@ -43,7 +43,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment2()
         {
-            for (byte i = 0; i <= 235; i++)
+            for (byte i = 0; i < 235; i++)
             {
                 _2RoomApartment _2roomApartment = new _2RoomApartment(1, 1, 1, 2);
 
@@ -56,7 +56,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment3()
         {
-            for (byte i = 0; i <= 167; i++)
+            for (byte i = 0; i < 167; i++)
             {
                 _3RoomApartment _3roomApartment = new _3RoomApartment(1, 1, 1, 3);
 
@@ -69,7 +69,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment4()
         {
-            for (byte i = 0; i <= 97; i++)
+            for (byte i = 0; i < 97; i++)
             {
                 _4RoomApartment _4roomApartment = new _4RoomApartment(1, 1, 1, 4);
                 
@@ -82,7 +82,7 @@ namespace Apartment_renovation.Controller
         /// </summary>
         void Apartment5()
         {
-            for (byte i = 0; i <= 47; i++)
+            for (byte i = 0; i < 47; i++)
             {
                 _5RoomApartment _5roomApartment = new _5RoomApartment(1, 1, 1, 5);
 

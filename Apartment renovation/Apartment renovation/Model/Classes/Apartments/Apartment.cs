@@ -9,15 +9,15 @@ namespace Apartment_renovation.Model.Classes
     internal abstract class Apartment
     {
         #region fields
-        protected string livingroom;
-        protected string kitchen;
-        protected string bathroom;
-        protected string room;
+        protected int livingroom;
+        protected int kitchen;
+        protected int bathroom;
+        protected int room;
         #endregion
 
         #region constructor
 
-        protected Apartment(string livingroom, string kitchen, string bathroom, string room) 
+        protected Apartment(int livingroom, int kitchen, int bathroom, int room) 
         {
             this.livingroom = livingroom;
             this.kitchen = kitchen;

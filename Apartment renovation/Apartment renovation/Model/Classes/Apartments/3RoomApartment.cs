@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Apartment_renovation.Model.Classes.Apartments
 {
-    internal class _3RoomApartment
+    internal class _3RoomApartment : Apartment
     {
+        internal _3RoomApartment(int livingroom, int kitchen, int bathroom, int room)
+            : base(livingroom, kitchen, bathroom, room)
+        {
+
+        }
     }
 }
