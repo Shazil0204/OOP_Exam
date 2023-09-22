@@ -17,14 +17,14 @@ namespace Apartment_renovation.Model.Classes
         protected bool isFrostedGlass;
         protected ushort mainDoorPrice;
         protected ushort backDoorPrice;
-        protected byte backDoorBD60;
-        protected byte backDoorBD40;
+        protected bool isbackDoorBD60;
+        protected bool isbackDoorBD40;
 
         #endregion
 
         #region constructor
 
-        protected WindowCleaner(string color, string guarantee, string WindowsType, bool isFrostedGlass, ushort mainDoorPrice, ushort backDoorPrice, byte backDoorBD60, byte backDoorBD40)
+        protected WindowCleaner(string color, string guarantee, string WindowsType, bool isFrostedGlass, ushort mainDoorPrice, ushort backDoorPrice, bool isbackDoorBD60, bool isbackDoorBD40)
         {
             this.color = color;
             this.guarantee = guarantee;
@@ -32,8 +32,8 @@ namespace Apartment_renovation.Model.Classes
             this.isFrostedGlass = isFrostedGlass;
             this.mainDoorPrice = mainDoorPrice;
             this.backDoorPrice = backDoorPrice;
-            this.backDoorBD60 = backDoorBD60;
-            this.backDoorBD40 = backDoorBD40;
+            this.isbackDoorBD60 = isbackDoorBD60;
+            this.isbackDoorBD40 = isbackDoorBD40;
         }
 
         #endregion
@@ -42,7 +42,15 @@ namespace Apartment_renovation.Model.Classes
 
         public override string ToString()
         {
-            return $"The Color of the Glass is ";
+            return 
+                $"Color: {this.color}\n" +
+                $"Guarantee: {this.guarantee}\n" +
+                $"Windows Type: {this.WindowsType}\n" +
+                $"Is Frosted Glass: {this.isFrostedGlass}\n" +
+                $"Main Door Prise: {this.mainDoorPrice}\n" +
+                $"Back Door Price: {this.backDoorPrice}\n" +
+                $"Is Back Door BD60: {this.isbackDoorBD60}\n" +
+                $"Is Back Door BD40: {this.isbackDoorBD40}\n";
         }
 
         #endregion
