@@ -9,8 +9,8 @@ namespace Apartment_renovation.Model.Classes
     internal class VindbjergWindow : WindowCleaner
     {
         #region Constructor
-        internal VindbjergWindow(string color, string guarantee, string WindowsType, ushort mainDoorPrice, ushort backDoorPrice, byte backDoorBD60, byte backDoorBD40)
-            : base(color, guarantee, WindowsType, mainDoorPrice, backDoorPrice, backDoorBD60, backDoorBD40)
+        internal VindbjergWindow(string color, string guarantee, string WindowsType, bool isFrostedGlass, ushort mainDoorPrice, ushort backDoorPrice, byte backDoorBD60, byte backDoorBD40)
+            : base(color, guarantee, WindowsType, isFrostedGlass, mainDoorPrice, backDoorPrice, backDoorBD60, backDoorBD40)
         {
 
         }

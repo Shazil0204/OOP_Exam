@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Controller\Controller.cs" />
     <Compile Include="Controller\CreatingApartment.cs" />
+    <Compile Include="Controller\WindowController.cs" />
     <Compile Include="Model\Classes\Apartments\1RoomApartment.cs" />
     <Compile Include="Model\Classes\Apartments\2RoomApartment.cs" />
     <Compile Include="Model\Classes\Apartments\3RoomApartment.cs" />

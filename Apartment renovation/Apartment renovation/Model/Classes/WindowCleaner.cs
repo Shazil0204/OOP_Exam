@@ -14,6 +14,7 @@ namespace Apartment_renovation.Model.Classes
         protected string color;
         protected string guarantee;
         protected string WindowsType;
+        protected bool isFrostedGlass;
         protected ushort mainDoorPrice;
         protected ushort backDoorPrice;
         protected byte backDoorBD60;
@@ -23,15 +24,25 @@ namespace Apartment_renovation.Model.Classes
 
         #region constructor
 
-        protected WindowCleaner(string color, string guarantee, string WindowsType, ushort mainDoorPrice, ushort backDoorPrice, byte backDoorBD60, byte backDoorBD40)
+        protected WindowCleaner(string color, string guarantee, string WindowsType, bool isFrostedGlass, ushort mainDoorPrice, ushort backDoorPrice, byte backDoorBD60, byte backDoorBD40)
         {
             this.color = color;
             this.guarantee = guarantee;
             this.WindowsType = WindowsType;
+            this.isFrostedGlass = isFrostedGlass;
             this.mainDoorPrice = mainDoorPrice;
             this.backDoorPrice = backDoorPrice;
             this.backDoorBD60 = backDoorBD60;
             this.backDoorBD40 = backDoorBD40;
+        }
+
+        #endregion
+
+        #region tostring
+
+        public override string ToString()
+        {
+            return $"The Color of the Glass is ";
         }
 
         #endregion
