@@ -10,7 +10,7 @@ namespace Apartment_renovation.Controller
 {
     internal class Controller
     {
-        CreatingApartment creatingApartment = new CreatingApartment();
+        internal CreatingApartment creatingApartment = new CreatingApartment();
 
         StandardApartment standardApartment = new StandardApartment();
 
